@@ -816,7 +816,7 @@ h1, h2, h3, h4, h5, h6, p {
   top: 0px;
   height: 100%;
   width: 100%;
-  background: #ffffff2b;
+  background: #00000063;
   z-index: -1;
 }
 
@@ -841,7 +841,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 43px;
   font-weight: 700;
   padding: 5px 0px;
-  color: #1a237e;
+  color: white;
 }
 
 @media (max-width: 1199.98px) {
@@ -852,15 +852,18 @@ h1, h2, h3, h4, h5, h6, p {
 
 .training_info_para {
   font-size: 20px;
+  color: #efefef;
 }
 
 .training_info_click {
   background: none;
-  color: black;
-  border: 3px solid #e69c44;
+  color: white;
+  border: none;
   padding: 5px 50px;
-  background: white;
+  background: black;
   margin: 15px 0px;
+  border-radius: 37px;
+  border: 2px solid white;
 }
 
 @media (max-width: 1199.98px) {
@@ -870,12 +873,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .training_info_click:hover {
-  border: 3px solid white;
-  background: #e69c44;
+  background: white;
+  color: black;
 }
 
 .training_count {
-  background: #1a237e;
+  background: #12232E;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -968,7 +971,7 @@ h1, h2, h3, h4, h5, h6, p {
   bottom: 0px;
   left: 0px;
   padding: 10px;
-  background: #e69c44;
+  background: white;
   margin: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -981,7 +984,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .trainer_media {
   font-size: 30px;
-  color: #1a237e;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -996,7 +999,7 @@ h1, h2, h3, h4, h5, h6, p {
   right: 0px;
   top: 0px;
   padding: 20px;
-  background: #e69c44;
+  background: white;
   margin: 5px;
   border-top-right-radius: 5px;
 }
@@ -1014,7 +1017,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .trainer_media i:hover {
-  color: white;
+  color: #e69c44;
   cursor: pointer;
 }
 
@@ -1329,9 +1332,9 @@ h1, h2, h3, h4, h5, h6, p {
 .qualification_head {
   font-size: 20px;
   padding: 4px 5px;
-  border: 1px solid black;
   background-color: #1a237e;
   color: white;
+  margin-bottom: 35px;
 }
 
 .qualification ul {
@@ -1341,10 +1344,29 @@ h1, h2, h3, h4, h5, h6, p {
 
 .qualification ul li {
   list-style-type: none;
-  border: 1px solid black;
+  -webkit-box-shadow: 3px 3px 3px #efefefef;
+          box-shadow: 3px 3px 3px #efefefef;
+  border: none;
   font-size: 17px;
   padding: 3px 20px;
+  margin: 15px 0px;
+  margin-left: 10px;
   border-top: 0px;
+  color: #6e6e6e;
+  position: relative;
+}
+
+.qualification ul li span {
+  color: white;
+  background: #22c1c3;
+  background: linear-gradient(128deg, #22c1c3 0%, #fdbb2d 100%);
+  padding: 3px 11px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  margin-right: 15px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
 }
 
 .process {
@@ -1354,9 +1376,9 @@ h1, h2, h3, h4, h5, h6, p {
 .process_head {
   font-size: 20px;
   padding: 4px 5px;
-  border: 1px solid black;
   background-color: #1a237e;
   color: white;
+  margin-bottom: 35px;
 }
 
 .process ul {
@@ -1366,10 +1388,29 @@ h1, h2, h3, h4, h5, h6, p {
 
 .process ul li {
   list-style-type: none;
-  border: 1px solid black;
+  -webkit-box-shadow: 3px 3px 3px #efefefef;
+          box-shadow: 3px 3px 3px #efefefef;
+  border: none;
   font-size: 17px;
   padding: 3px 20px;
+  margin: 15px 0px;
+  margin-left: 10px;
   border-top: 0px;
+  color: #6e6e6e;
+  position: relative;
+}
+
+.process ul li span {
+  color: white;
+  background: #22c1c3;
+  background: linear-gradient(128deg, #22c1c3 0%, #fdbb2d 100%);
+  padding: 3px 11px;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  margin-right: 15px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
 }
 
 .training_desc_bg {
@@ -1509,15 +1550,16 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .classes_button button {
-  border: 2px solid gray;
+  border: 2px solid white;
   border-radius: 200px;
   cursor: pointer;
   padding: 3px 30px;
   font-size: 25px;
   font-style: 500;
-  color: #1a237e;
+  color: white;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  background: black;
 }
 
 @media (max-width: 767.98px) {
