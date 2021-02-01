@@ -1,0 +1,50 @@
+.form_box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid#efefef;
+    border-radius: 4px;
+    background: #ffffff;
+    padding: 5px;
+    & label{
+        background: #fffff3;
+        font-size: 17px;
+        padding: 5px;
+    }
+    & input[type='text']{
+        border: none;
+        background: none;
+        
+    }
+    & input[type='date']{
+        border: none;
+        background: none;
+        &:focus{
+            outline: unset;
+        }
+    }
+    & input[type='number']{
+        border: none;
+        background: none;
+        &:focus{
+            outline: unset;
+        }
+    }
+    & input[type='submit']{
+        border: none;
+        background: none;
+        border: none;
+        background:#08004f;
+        color: white;
+        padding: 5px 15px;
+        // width: 50%;
+        text-align: center;
+        &:focus{
+            outline: unset;
+        }
+    }
+
+}
+
+.home_book_form{
+    // padding: 20px 0px;
+}

@@ -1,0 +1,81 @@
+.heading_1{
+    font-size: 40px !important;
+    font-weight: 700;
+    color: #e69c44;
+    @include respond(tab-port){
+        font-size: 30px !important;
+    }
+
+}
+.heading_2{
+    font-size: 60px ;
+    font-weight: 700;
+    @include respond(tab-port){
+        font-size: 40px ;
+    }
+}
+
+.paragraph_1{
+    font-size: 20px;
+    @include respond(tab-port){
+        font-size: 17px !important;
+    }
+}
+.paragraph_2{
+    font-size: 17px;
+}
+.paragraph_2_about_page{
+    @include respond(tab-port){
+        font-size: 15px ;
+    }
+}
+.small_para{
+    font-size: 16px;
+    color: gray;
+}
+.paragraph_dark_bg{
+    font-weight: 300;
+}
+
+
+.box_text{
+    padding-bottom: 15px;
+    & p{
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        &:hover{
+            background: #e69c44;
+        }
+    }
+}
+
+.line_hide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+}
+
+.line_hide_2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+}
+
+.read_more{
+    padding-top: 15px;
+    & span{
+        font-size: 16px;
+        color: gray;
+        cursor: pointer;
+    }
+}
+

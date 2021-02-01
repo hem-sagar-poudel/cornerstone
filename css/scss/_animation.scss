@@ -1,0 +1,97 @@
+@keyframes booble_1{
+    0%{
+        top: 20px;
+    }
+    25%{
+        top: 10px;
+    }
+    70%{
+        top: 50px;
+    }
+    
+    100%{
+        top: 20px;
+    }
+}
+@keyframes booble_2{
+    0%{
+        right: 20px;
+    }
+    25%{
+        right: 10px;
+    }
+    70%{
+        right: 50px;
+    }
+    100%{
+        right: 20px;
+    }
+}
+
+
+
+
+
+// menu_lines
+@keyframes line_1{
+    0%{
+        width: 35px;
+    }
+    25%{
+        width: 38px;
+    }
+    70%{
+        width: 33px;
+    }
+    100%{
+        width: 35px;
+    }
+}
+
+@keyframes line_2{
+    0%{
+        width: 42px;
+    }
+    25%{
+        width: 38px;
+    }
+    70%{
+        width: 33px;
+    }
+    100%{
+        width: 42px;
+    }
+}
+
+@keyframes line_3{
+    0%{
+        width: 24px;
+    }
+    25%{
+        width: 28px;
+    }
+    70%{
+        width: 33px;
+    }
+    100%{
+        width: 24px;
+    }
+}
+
+
+//cancel
+@keyframes cancel_line1{
+    0%{
+        width: 35px;
+    }
+    25%{
+        width: 38px;
+    }
+    70%{
+        width: 33px;
+    }
+    100%{
+        width: 35px;
+    }
+}
+
