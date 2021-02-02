@@ -643,9 +643,6 @@
     }
 }
 
-
-
-
 .trainer{
     position: relative;
     transition: 0.2s ease-in-out;
@@ -982,6 +979,8 @@
         background-color: #1a237e;
         color: white;
         margin-bottom: 35px;
+        box-shadow: 2px 2px 3px black;
+        padding-left: 30px;
 
     }
     & ul{
@@ -999,6 +998,7 @@
             border-top: 0px;
             color: #6e6e6e;
             position: relative;
+            padding-left: 30px;
             & span{
                 color: white;
                 background: rgb(34,193,195);
@@ -1025,6 +1025,8 @@
         background-color: #1a237e;
         color: white;
         margin-bottom: 35px;
+        box-shadow: 2px 2px 3px black;
+       
 
     }
     & ul{
@@ -1047,6 +1049,7 @@
             border-top: 0px;
             color: #6e6e6e;
             position: relative;
+            padding-left: 30px;
             & span{
                 color: white;
                 background: rgb(34,193,195);

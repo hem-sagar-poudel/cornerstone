@@ -1335,6 +1335,9 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #1a237e;
   color: white;
   margin-bottom: 35px;
+  -webkit-box-shadow: 2px 2px 3px black;
+          box-shadow: 2px 2px 3px black;
+  padding-left: 30px;
 }
 
 .qualification ul {
@@ -1354,6 +1357,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-top: 0px;
   color: #6e6e6e;
   position: relative;
+  padding-left: 30px;
 }
 
 .qualification ul li span {
@@ -1379,6 +1383,8 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #1a237e;
   color: white;
   margin-bottom: 35px;
+  -webkit-box-shadow: 2px 2px 3px black;
+          box-shadow: 2px 2px 3px black;
 }
 
 .process ul {
@@ -1398,6 +1404,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-top: 0px;
   color: #6e6e6e;
   position: relative;
+  padding-left: 30px;
 }
 
 .process ul li span {
